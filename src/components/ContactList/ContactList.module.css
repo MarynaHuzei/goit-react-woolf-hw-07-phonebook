@@ -1,0 +1,37 @@
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  border: 1px solid #1f1e1e;
+  margin-bottom: 30px;
+}
+
+.list li:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.list li button {
+  float: right;
+  background-color: #1f1e1e;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.list li button:hover {
+  background-color: #ff96e0;
+  color: #1f1e1e;
+  border: 1px solid #1f1e1e;
+}

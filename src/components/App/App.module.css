@@ -1,0 +1,28 @@
+.app {
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 10px;
+  background-color: #ffabdd;
+  transition: box-shadow 0.3s ease;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  /* border: #232022 1px solid; */
+  box-shadow: 2px 6px 10px rgba(11, 11, 11, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.app:hover {
+  background-color: #f787ca;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
